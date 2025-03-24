@@ -1,7 +1,7 @@
 services:
 
   ollama:
-    image: ollama/ollama:0.5.13-rc2-rocm
+    image: ollama/ollama:rocm
     container_name: ollama
     environment:
       OLLAMA_MODELS: /usr/share/ollama
